@@ -26,7 +26,7 @@ class KitchenTimer{
                 this._remainingSeconds--;
                 console.log(`${this._name} : 残り時間${this._remainingSeconds}秒`);
             };
-        });
+        }, 1000);
     }
 
     setSeconds(seconds){
